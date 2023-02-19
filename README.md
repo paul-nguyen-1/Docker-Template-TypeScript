@@ -5,9 +5,6 @@
 <ul>
 <li>Fork Repository</li>
 <li>git clone https://github.com/paul-nguyen96/captcha-security.git </li>
-<li>docker compose up --build</li>
-<li></li>
-</ul>
 
 ## Start Local Server
 
