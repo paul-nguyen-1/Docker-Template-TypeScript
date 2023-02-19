@@ -9,6 +9,8 @@ COPY ./package*.json ./
 RUN npm install
 # Copy app files
 COPY . .
+# Build prod
+RUN npm run build
 # Add `/app/node_modules/.bin` to $PATH
 ENV PATH /app/node_modules/.bin:$PATH
 # Deploy app for local development
