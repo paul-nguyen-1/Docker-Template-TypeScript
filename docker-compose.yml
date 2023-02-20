@@ -6,8 +6,8 @@ services:
        context: .
        dockerfile: Dockerfile
      volumes:
-       - ./:/captcha-security:delegated
-       - /node_modules
+       - ./:/Users/swaggy/Desktop/captcha-security
+       - /Users/swaggy/Desktop/captcha-security/node_modules
      ports:
        - 3000:3000
      environment:
