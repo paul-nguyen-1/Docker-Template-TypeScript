@@ -5,8 +5,6 @@ FROM node:13.12.0-alpine
 WORKDIR /captcha-security
 # Copy app dependencies to container
 COPY ./package*.json ./
-#Install Globals
-RUN npm install --save-dev sass
 # Install dependencies
 RUN npm install
 # Copy app files
