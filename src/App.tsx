@@ -1,9 +1,13 @@
 import './App.scss';
+import Captcha from './components/Captcha';
+import Input from './components/Input';
 
 function App() {
   return (
     <div className="App">
-      leggo
+      <Input />
+      <Captcha/>
+      <button>Click to Send</button>
     </div>
   );
 }
