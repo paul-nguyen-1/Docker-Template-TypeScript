@@ -6,8 +6,8 @@ services:
        context: .
        dockerfile: Dockerfile
      volumes:
-       - ./:/Users/swaggy/Desktop/captcha-security
-       - /Users/swaggy/Desktop/captcha-security/node_modules
+       - ./:/Users/swaggy/Desktop/login-google-auth0
+       - /Users/swaggy/Desktop/login-google-auth0/node_modules
      ports:
        - 3000:3000
      environment:
