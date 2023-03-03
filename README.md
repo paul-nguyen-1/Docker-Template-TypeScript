@@ -4,7 +4,8 @@
 
 <ul>
 <li>Fork Repository</li>
-<li>git clone https://github.com/paul-nguyen96/login-google-auth0.git </li>
+<li>git clone https://github.com/paul-nguyen96/Docker-Template-TypeScript
+ </li>
 
 ## Start Local Server
 
